@@ -1,0 +1,16 @@
+{
+  "name": "learninng_processing",
+  "version": "1.0.0",
+  "description": "Repo para aprender Processing",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "processing-js": "^1.6.6",
+    "serve": "^6.5.5"
+  }
+}
