@@ -18,16 +18,16 @@ void draw(){
   rect(0,0,400,400);
   stroke(0);
   fill(204,240,0);
-  triangle(170,145,190,120,210,145);
-  fill(240,160,0);
   ellipse(centro_x - 40, centro_y,30,30);
+  fill(240,160,0);
+  triangle(mouseX - 20,mouseY - 10,mouseX,mouseY - 40,mouseX + 20,mouseY - 10);
   strokeWeight(4);
-  line(190,177,190,250);
+  line(mouseX,mouseY + 16,mouseX,mouseY + 90);
   strokeWeight(3);
-  line(190,250,210,300);
-  line(190,250,170,300);
-  line(190,180,210,220);
-  line(190,180,170,220);
+  line(mouseX,mouseY + 90,mouseX + 20,mouseY + 140);
+  line(mouseX,mouseY + 90,mouseX - 20,mouseY + 140);
+  line(mouseX,mouseY + 20,mouseX + 20,mouseY + 60);
+  line(mouseX,mouseY + 20,mouseX - 20,mouseY + 60);
 
 
   // Suelo
