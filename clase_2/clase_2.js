@@ -1,16 +1,16 @@
-void setup()
+function setup()
 {
-  size(400,400);
+  createCanvas(400,400);
   background(235);
 
 }
 
 
-void draw(){
-  println(mouseX, mouseY);
+function draw(){
+  print(mouseX, mouseY);
 
-  int centro_x = mouseX + 40;
-  int centro_y = mouseY;
+  var centro_x = mouseX + 40;
+  var centro_y = mouseY;
 
   strokeWeight(1);
   noStroke();

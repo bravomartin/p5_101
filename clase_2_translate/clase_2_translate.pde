@@ -1,10 +1,10 @@
-void setup()
+function setup()
 {
-  size(400,400);
+  createCanvas(400,400);
   background(235);
 }
 
-void draw(){
+function draw(){
   // fondo
   noStroke();
   fill(250,250,250);

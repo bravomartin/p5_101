@@ -1,12 +1,12 @@
-void setup()
+function setup()
 {
-  size(400,400);
+  createCanvas(400,400);
   background(235);
 
 }
 
 
-void draw(){
+function draw(){
 strokeWeight(1);
   fill(204,240,0);
   triangle(170,145,190,120,210,145);
